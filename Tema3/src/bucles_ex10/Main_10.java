@@ -9,7 +9,7 @@ package bucles_ex10;
  *
  * @authorSara
  */
-public class Main {
+public class Main_10 {
 
     /**
      * @param args the command line arguments

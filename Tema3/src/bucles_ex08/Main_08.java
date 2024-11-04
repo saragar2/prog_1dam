@@ -12,7 +12,7 @@ package bucles_ex08;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main_08 {
 
     /**
      * @param args the command line arguments

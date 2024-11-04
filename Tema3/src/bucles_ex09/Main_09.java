@@ -11,7 +11,7 @@ package bucles_ex09;
  */
 import java.util.Scanner;
 
-public class Main {
+public class Main_09 {
 
     /**
      * @param args the command line arguments
