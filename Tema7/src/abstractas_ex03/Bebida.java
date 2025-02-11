@@ -25,5 +25,12 @@ public class Bebida extends Producto{
         this.alcohol = alcohol;
     }
     
-    
+    @Override
+    public void mostrar() {
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " + super.getNombre());
+        System.out.println("Precio: " + super.getPrecio());
+        System.out.println("Alcohol: " + getAlcohol());
+        System.out.println("------------------------------------");
+    }
 }

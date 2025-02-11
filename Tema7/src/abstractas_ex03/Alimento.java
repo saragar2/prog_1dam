@@ -27,7 +27,11 @@ public class Alimento extends Producto{
 
     @Override
     public void mostrar() {
-        
+        System.out.println("------------------------------------");
+        System.out.println("Nombre: " + super.getNombre());
+        System.out.println("Precio: " + super.getPrecio());
+        System.out.println("Calorias: " + getCalorias());
+        System.out.println("------------------------------------");
     }
     
     

@@ -19,13 +19,16 @@ public class Main {
         
         Alimento galletas = new Alimento("Galletas Maria", 2.5, 786);
         Alimento lechuga = new Alimento("Lechuga fresca", 1.8, 117);
-        Bebida vodka = new Bebida("Vodka de mora Knebeb", 4.5, 597);
-        Bebida ron = new Bebida("Ron La Recompensa", 6.2, 943);
+        Bebida vodka = new Bebida("Vodka de mora Knebeb", 4.5, 22);
+        Bebida ron = new Bebida("Ron La Recompensa", 6.2, 37);
         
         arProd[0] = galletas;
         arProd[1] = lechuga;
         arProd[2] = vodka;
         arProd[3] = ron;
+        
+        for(int i = 0; i < 4; i++)
+            arProd[i].mostrar();
     }
 
 }

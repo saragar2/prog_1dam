@@ -15,7 +15,17 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("resultado: " + (2 - 1 * 3));
+        Circulo ci = new Circulo(5);
+        Cuadrado cu = new Cuadrado(5);
+        Triangulo tri = new Triangulo(8, 5, 10, 10);
+        
+        System.out.println(ci.area());
+        System.out.println(ci.perimetro());
+        System.out.println(cu.area());
+        System.out.println(cu.perimetro());
+        System.out.println(tri.area());
+        System.out.println(tri.perimetro());
+        
     }
 
 }

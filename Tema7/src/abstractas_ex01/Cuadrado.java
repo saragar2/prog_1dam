@@ -12,6 +12,15 @@ package abstractas_ex01;
 public class Cuadrado extends Figura{
     private double lado;
 
+    public Cuadrado(double lado, String color) {
+        super(color);
+        this.lado = lado;
+    }
+
+    public Cuadrado(double lado) {
+        this.lado = lado;
+    }
+    
     @Override
     public double area() {
         return (lado * lado);

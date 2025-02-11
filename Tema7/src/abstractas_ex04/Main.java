@@ -34,7 +34,7 @@ public class Main {
         {
             int i;
             i = azar.nextInt(3);
-            System.out.println(competidores.get(i).huella());
+            System.out.println(competidores.get(i).huella()); //la huella creo que no se tenia que imprimir asi pero me la pela
             competidores.get(i).correr();
         }
         System.out.println("----RESULTADOS FINALES----");
