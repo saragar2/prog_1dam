@@ -1,2 +1,2 @@
 # prog_1dam
-Los proyectos que hice a lo largo de 1º Desarrollo de Aplicaciones Multiplataforma(DAM). No incluye enunciados 
+Los proyectos del módulo "programación" que hice a lo largo de 1º Desarrollo de Aplicaciones Multiplataforma(DAM). No incluye enunciados 
